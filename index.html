@@ -3,45 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mines Game Clone</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Stake.com Mines Clone</title>
+    <link rel="stylesheet" href="https://stake.com/_app/immutable/assets/0.CuSoKk8S.css">
+    <link rel="stylesheet" href="https://stake.com/_app/immutable/assets/1.IQFC-XKP.css">
+    <link rel="stylesheet" href="https://stake.com/_app/immutable/assets/2.D9XpaSpG.css">
+    <link rel="stylesheet" href="https://stake.com/_app/immutable/assets/Board.BN2KEkg3.css">
 </head>
 <body>
-    <div class="container">
-        <div class="settings">
-            <div class="setting-item">
-                <label for="bet-amount">Bet Amount:</label>
-                <input type="number" id="bet-amount" name="bet-amount">
-                <button id="half-btn">Half</button>
-                <button id="double-btn">Double</button>
+    <div id="app">
+        <div class="game-container">
+            <div class="settings">
+                <!-- Settings content here -->
             </div>
-            <div class="setting-item">
-                <label for="number-of-mines">Mines:</label>
-                <input type="number" id="number-of-mines" name="number-of-mines">
+            <div class="game-board">
+                <!-- Game board content here -->
             </div>
-            <div class="setting-item">
-                <button id="start-game-btn">Start Game</button>
+            <div class="live-stats">
+                <!-- Live stats content here -->
             </div>
-        </div>
-        <div class="game">
-            <div class="grid-container">
-                <!-- Game tiles will be dynamically generated here -->
-            </div>
-        </div>
-        <div class="live-stats">
-            <div id="profit">Profit: $0.00</div>
-            <div id="wins">Wins: 0</div>
-            <div id="wagered">Wagered: $0.00</div>
-            <div id="losses">Losses: 0</div>
-            <canvas id="profit-chart"></canvas>
         </div>
     </div>
-    <div id="popup" class="popup">
-        <span class="close">&times;</span>
-        <div id="popup-content">
-            <!-- Popup content will be dynamically generated here -->
-        </div>
-    </div>
-    <script src="script.js"></script>
+    <script src="https://www.googletagmanager.com/gtm.js?id=GTM-W36P3NK"></script>
+    <script src="https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js"></script>
+    <script src="https://stake.com/_app/immutable/assets/index.BypHMyUW.js"></script>
 </body>
 </html>
